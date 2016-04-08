@@ -59,7 +59,7 @@ var ShuffleBag = module.exports = function(items){
 	};
 	
 	
-	shuffle();
+	shuffle(); // the initial shuffle
 
 	return {
 		next:function(){
