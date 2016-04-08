@@ -1,6 +1,6 @@
 ﻿// test
 
-var ShuffleBag = require("./shuffle-bag");
+var ShuffleBag = require("giffo-shufflebag");
 
 var objects = {"critical strike":3, "attack":16, "godly strike":1};
 //objects = ["a","b","c","d"]; // array
