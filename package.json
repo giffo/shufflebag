@@ -1,7 +1,7 @@
 {
 	
 	"name": "giffo-shufflebag",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "shuffle bag - produces a random element from the given array",
 	"author": "giffo <github@giffo.org>",
 	"main": "index.js",

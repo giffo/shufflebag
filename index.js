@@ -47,11 +47,10 @@ var ShuffleBag = module.exports = function(items){
 		for (var i = 0; i < bag.length; i++) {
 			swap(bag, i, Math.floor(Math.random() * bag.length));
 		}
-		//swap(bag, 0, Math.floor(Math.random() * bag.length))
-		//swap(bag, bag.length-1, Math.floor(Math.random() * bag.length))
+		
 
 		function swap(arrt, a, b) {
-			//console.log("swap " + a +" with " + b);
+			
 			var t = arrt[a];
 			arrt[a] = arrt[b];
 			arrt[b] = t;
@@ -67,6 +66,10 @@ var ShuffleBag = module.exports = function(items){
 				shuffle();
 			}
 			return bag.shift();
+		},
+		reset:function() { // reset the bag
+			shuffle();
+			
 		}
 	}
 }

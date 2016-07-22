@@ -11,3 +11,8 @@ var bag = new ShuffleBag(objects);
 for (var i = 0; i <40; i++) {
 	console.log(bag.next());
 }
+
+
+
+// TODO: testing .reset method
+
